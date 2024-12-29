@@ -1,0 +1,5 @@
+(library
+ (name chess)
+ (preprocess (pps ppx_deriving.show ppx_deriving.enum))
+ (libraries str threads)
+ (modules board input limits move movegen math search transposition))
