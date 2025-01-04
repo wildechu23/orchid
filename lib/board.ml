@@ -348,3 +348,4 @@ let setup_board_from_fen fen =
         } in
         !sboard.state <- state;
     | _ -> failwith "Invalid FEN format"
+
